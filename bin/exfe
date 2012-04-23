@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "rubygems"
+require "exfe_cli"
+require "commander/import"
+
+program :version, ExfeCli::VERSION
+program :description, ExfeCli::DESCRIPTION

@@ -1,5 +1,4 @@
 require "exfe_cli/version"
-
-module ExfeCli
-  # Your code goes here...
-end
+require "exfe_cli/common"
+require "exfe_cli/core_ext"
+require "exfe_cli/engine"
