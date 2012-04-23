@@ -9,6 +9,20 @@ program :description, ExfeCli::DESCRIPTION
 
 include ExfeCli::CliHelper
 
+def authenticated?
+  File.exists?(config_file_path) && auth_token && auth_token.length > 0
+end
+
+def ask_for_credentials
+  begin
+    identity = ask("Identity: ")
+    password = ask("Password: ") { |q| q.echo = false }
+    data = ExfeCli::Engine.login(identity, password)
+    puts 'Identity & password mismatch.' unless data
+  end until data
+  open(config_file_path, 'w') { |f| f.write data.to_yaml }
+end
+
 ask_for_credentials unless authenticated?
 
 command :crosses do |c|
@@ -23,6 +37,23 @@ def print_cross(cross)
   puts cross[:id].ljust(8) + cross[:title]
 end
 
+command :profile do |c|
+  c.syntax = 'exfe profile'
+  c.description = 'view my profile'
+  c.action do |args, options|
+    print_profile ExfeCli::Engine.profile
+  end
+end
+
+def print_profile(profile)
+  puts "Name: #{profile[:user][:name]}"
+  puts "Identities:"
+  profile[:identities].each do |identity|
+    puts identity[:provider].ljust(10) + identity[:external_username]
+  end
+end
+
 alias_command :s, :crosses
+alias_command :p, :profile
 
 default_command :crosses

@@ -5,6 +5,8 @@ require 'rest_client'
 module ExfeCli
   module Engine
     class << self
+      include CliHelper
+
       def dehydrate(data)
         parse_response JSON(data).recursively_symbolize_keys
       end
@@ -14,8 +16,11 @@ module ExfeCli
       end
 
       def crosses
-        # incomplete
-        get('/users/13/x?token=43fdd3caf76eb3673308a99b6248439e')[:crosses]
+        get("/users/#{user_id}/x?token=#{auth_token}")[:crosses]
+      end
+
+      def profile
+        get("/users/#{user_id}/getprofile?token=#{auth_token}")
       end
 
       private

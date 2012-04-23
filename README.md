@@ -22,6 +22,10 @@ Comment on a cross
 
     exfe comment CROSS_ID
 
+View my profile
+
+    exfe profile
+
 View a user
 
     exfe user USER_ID

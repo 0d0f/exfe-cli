@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "response": {
+    "identities": [
+      {
+        "id": "15",
+        "provider": "email",
+        "external_identity": "afu@forresty.com",
+        "created_at": "2011-11-02 20:03:12",
+        "updated_at": "0000-00-00 00:00:00",
+        "name": "forresty",
+        "bio": "",
+        "avatar_file_name": "http://www.gravatar.com/avatar/23e50edf941e60d5ec7bb64706833121?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png",
+        "avatar_content_type": "",
+        "avatar_file_size": "0",
+        "avatar_updated_at": "0000-00-00 00:00:00",
+        "external_username": "afu@forresty.com",
+        "oauth_token": null,
+        "status": "3",
+        "active_exp_time": false
+      },
+      {
+        "id": "234",
+        "provider": "iOSAPN",
+        "external_identity": "93c9c21d33293842916e01b5b00d283eb921f159687145be7d752e3ac31678ee",
+        "created_at": "2012-04-23 07:31:56",
+        "updated_at": null,
+        "name": null,
+        "bio": null,
+        "avatar_file_name": null,
+        "avatar_content_type": null,
+        "avatar_file_size": null,
+        "avatar_updated_at": null,
+        "external_username": "Forrest Ye’s iPhone 4",
+        "oauth_token": null,
+        "status": "3",
+        "active_exp_time": false
+      }
+    ],
+    "user": {
+      "name": "Forrest Ye",
+      "bio": "",
+      "avatar_file_name": "",
+      "avatar_content_type": "",
+      "avatar_file_size": null,
+      "avatar_updated_at": null,
+      "external_username": ""
+    }
+  }
+}
