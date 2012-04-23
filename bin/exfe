@@ -39,7 +39,7 @@ command :cross do |c|
   c.action do |args, options|
     cross = ExfeCli::Engine.cross args.first
     puts "#{cross[:title].upcase} - #{cross[:description]}"
-    puts "#{extract_place(cross)} at #{cross[:begin_at]}"
+    puts "#{extract_place(cross)} at #{Time.parse(cross[:begin_at] + " UTC").localtime}"
     puts
     cross[:conversations].reverse.each do |conv|
       puts "#{Time.parse(conv[:created_at] + " UTC").localtime} #{conv[:identity][:name]}:"
