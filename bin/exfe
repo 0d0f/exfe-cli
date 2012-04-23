@@ -14,12 +14,12 @@ def authenticated?
 end
 
 def ask_for_credentials
-  begin
+  data = loop do
     identity = ask("Identity: ")
     password = ask("Password: ") { |q| q.echo = false }
-    data = ExfeCli::Engine.login(identity, password)
-    puts 'Identity & password mismatch.' unless data
-  end until data
+    break data if data = ExfeCli::Engine.login(identity, password)
+    puts 'Identity & password mismatch.'
+  end
   open(config_file_path, 'w') { |f| f.write data.to_yaml }
 end
 
