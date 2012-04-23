@@ -7,7 +7,7 @@ require "open-uri"
 require "exfe_cli"
 
 def fixture(filename)
-  ExfeCli::Engine.jsonize(raw_fixture(filename)).recursively_symbolize_keys
+  ExfeCli::Engine.dehydrate(raw_fixture(filename))
 end
 
 def raw_fixture(filename)

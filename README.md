@@ -10,17 +10,17 @@ Compatible with Ruby 1.8.7+ and Ruby 1.9+
 
 ## Usage
 
-List my events
+List my crosses
 
-    exfe events
+    exfe crosses
 
-View an event
+View a cross
 
-    exfe event EVENT_ID
+    exfe cross CROSS_ID
 
-Comment on an event
+Comment on a cross
 
-    exfe comment EVENT_ID
+    exfe comment CROSS_ID
 
 View a user
 

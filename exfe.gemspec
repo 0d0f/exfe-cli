@@ -21,5 +21,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "simplecov"
 
   gem.add_runtime_dependency "commander"
+  gem.add_runtime_dependency "rest-client"
   gem.add_runtime_dependency "json"
 end

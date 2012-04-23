@@ -6,3 +6,23 @@ require "commander/import"
 
 program :version, ExfeCli::VERSION
 program :description, ExfeCli::DESCRIPTION
+
+include ExfeCli::CliHelper
+
+ask_for_credentials unless authenticated?
+
+command :crosses do |c|
+  c.syntax = 'exfe crosses'
+  c.description = 'list my crosses'
+  c.action do |args, options|
+    ExfeCli::Engine.crosses.each { |cross| print_cross(cross) }
+  end
+end
+
+def print_cross(cross)
+  puts cross[:id].ljust(8) + cross[:title]
+end
+
+alias_command :s, :crosses
+
+default_command :crosses
