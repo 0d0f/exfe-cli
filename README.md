@@ -6,6 +6,10 @@ Command line interface to [exfe.com](https://exfe.com/)
 
     gem install exfe
 
+Install from source code
+
+    bundle && rake build && rake install
+
 Compatible with Ruby 1.8.7+ and Ruby 1.9+
 
 ## Usage
