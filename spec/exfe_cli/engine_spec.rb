@@ -24,6 +24,13 @@ describe ExfeCli::Engine do
     end
   end
 
+  context 'cross' do
+    it "should return a Hash" do
+      engine.stub(:get).and_return(fixture('crosses.json'))
+      engine.cross(100002).should be_a Hash
+    end
+  end
+
   context "profile" do
     it "should return a hash" do
       engine.stub(:get).and_return(fixture('profile.json'))

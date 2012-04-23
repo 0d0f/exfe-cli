@@ -29,31 +29,45 @@ command :crosses do |c|
   c.syntax = 'exfe crosses'
   c.description = 'list my crosses'
   c.action do |args, options|
-    ExfeCli::Engine.crosses.each { |cross| print_cross(cross) }
+    ExfeCli::Engine.crosses.each { |cross| puts cross[:id].ljust(8) + cross[:title] }
   end
 end
 
-def print_cross(cross)
-  puts cross[:id].ljust(8) + cross[:title]
+command :cross do |c|
+  c.syntax = 'exfe cross CROSS_ID'
+  c.description = 'view a cross'
+  c.action do |args, options|
+    cross = ExfeCli::Engine.cross args.first
+    puts "#{cross[:title].upcase} - #{cross[:description]}"
+    puts "#{extract_place(cross)} at #{cross[:begin_at]}"
+    puts
+    cross[:conversations].reverse.each do |conv|
+      puts "#{Time.parse(conv[:created_at] + " UTC").localtime} #{conv[:identity][:name]}:"
+      puts conv[:message]
+      puts
+    end
+  end
+end
+
+def extract_place(cross)
+  "#{cross[:place][:line1]}, #{cross[:place][:line2]}"
 end
 
 command :profile do |c|
   c.syntax = 'exfe profile'
   c.description = 'view my profile'
   c.action do |args, options|
-    print_profile ExfeCli::Engine.profile
-  end
-end
-
-def print_profile(profile)
-  puts "Name: #{profile[:user][:name]}"
-  puts "Identities:"
-  profile[:identities].each do |identity|
-    puts identity[:provider].ljust(10) + identity[:external_username]
+    profile = ExfeCli::Engine.profile
+    puts "Name: #{profile[:user][:name]}"
+    puts "Identities:"
+    profile[:identities].each do |identity|
+      puts identity[:provider].ljust(10) + identity[:external_username]
+    end
   end
 end
 
 alias_command :s, :crosses
 alias_command :p, :profile
+alias_command :c, :cross
 
 default_command :crosses
