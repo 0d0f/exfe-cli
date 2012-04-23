@@ -50,7 +50,7 @@ command :cross do |c|
 end
 
 def extract_place(cross)
-  "#{cross[:place][:line1]}, #{cross[:place][:line2]}"
+  [cross[:place][:line1], cross[:place][:line2]].select { |l| l.length > 0 }.join ', '
 end
 
 command :profile do |c|
