@@ -1,6 +1,7 @@
 require "open-uri"
 require "json"
 require 'rest_client'
+require "recursive_symbolization"
 
 module ExfeCli
   module Engine
@@ -8,7 +9,7 @@ module ExfeCli
       include CliHelper
 
       def dehydrate(data)
-        parse_response JSON(data).recursively_symbolize_keys
+        parse_response JSON(data).symbolize_keys_recursively
       end
 
       def login(identity, password)
