@@ -1,7 +1,7 @@
 require "spec_helper"
 
 describe ExfeCli::Engine do
-  subject { ExfeCli::Engine }
+  subject { ExfeCli::Engine.new }
   it { should respond_to :login }
   let(:engine) { subject }
 

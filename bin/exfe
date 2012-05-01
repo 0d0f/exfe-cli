@@ -9,6 +9,8 @@ program :description, ExfeCli::DESCRIPTION
 
 include ExfeCli::CliHelper
 
+@engine = ExfeCli::Engine.new
+
 def authenticated?
   File.exists?(config_file_path) && auth_token && auth_token.length > 0
 end
@@ -17,7 +19,7 @@ def ask_for_credentials
   data = loop do
     identity = ask("Identity: ")
     password = ask("Password: ") { |q| q.echo = false }
-    break data if data = ExfeCli::Engine.login(identity, password)
+    break data if data = @engine.login(identity, password)
     puts 'Identity & password mismatch.'
   end
   open(config_file_path, 'w') { |f| f.write data.to_yaml }
@@ -29,7 +31,7 @@ command :crosses do |c|
   c.syntax = 'exfe crosses'
   c.description = 'list my crosses'
   c.action do |args, options|
-    ExfeCli::Engine.crosses.each { |cross| puts cross[:id].ljust(8) + cross[:title] }
+    @engine.crosses.each { |cross| puts cross[:id].ljust(8) + cross[:title] }
   end
 end
 
@@ -37,7 +39,7 @@ command :cross do |c|
   c.syntax = 'exfe cross CROSS_ID'
   c.description = 'view a cross'
   c.action do |args, options|
-    cross = ExfeCli::Engine.cross args.first
+    cross = @engine.cross args.first
     puts "#{cross[:title].upcase} - #{cross[:description]}"
     puts "#{extract_place(cross)} at #{to_localtime(cross[:begin_at])}"
     puts
@@ -61,7 +63,7 @@ command :profile do |c|
   c.syntax = 'exfe profile'
   c.description = 'view my profile'
   c.action do |args, options|
-    profile = ExfeCli::Engine.profile
+    profile = @engine.profile
     puts "Name: #{profile[:user][:name]}"
     puts "Identities:"
     profile[:identities].each do |identity|
