@@ -18,6 +18,10 @@ module ExfeCli
       get("/crosses/#{cross_id}?token=#{auth_token}")[:cross]
     end
 
+    def conversation(exfee_id)
+      get("/conversation/#{exfee_id}?token=#{auth_token}")[:conversation]
+    end
+
     def profile
       get "/users/#{user_id}/getprofile?token=#{auth_token}"
     end

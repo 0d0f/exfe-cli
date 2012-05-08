@@ -41,13 +41,14 @@ command :cross do |c|
   c.action do |args, options|
     cross = @engine.cross args.first
     puts "#{cross[:title].upcase} - #{cross[:description]}"
-    puts "#{extract_place(cross)}"# at #{to_localtime(cross[:time][:origin])}"
+    puts "#{extract_place(cross)} at #{to_localtime(cross[:time][:begin_at][:date] + ' ' + cross[:time][:begin_at][:time])}"
     puts
-    # cross[:conversations].reverse.each do |conv|
-    #   puts "#{to_localtime(conv[:created_at])} #{conv[:identity][:name]}:"
-    #   puts conv[:message]
-    #   puts
-    # end
+    @engine.conversation(args.first).reverse.each do |conv|
+      # puts conv[:by_identity][:name]
+      puts "#{to_localtime(conv[:created_at])} #{conv[:by_identity][:name]}:"
+      puts conv[:content]
+      puts
+    end
   end
 end
 
