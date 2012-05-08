@@ -5,953 +5,775 @@
   "response": {
     "crosses": [
       {
-        "id": "100110",
-        "title": "4sq day shanghai",
-        "description": "去4sq day 玩喽。",
-        "code": "",
-        "begin_at": "2012-04-16 11:00:00",
-        "end_at": "0000-00-00 00:00:00",
-        "duration": "0",
-        "host_id": "3",
-        "created_at": "2012-04-16 10:43:26",
-        "updated_at": "2012-04-16 11:40:07",
-        "state": "1",
-        "place_id": "103",
-        "time_type": "",
-        "origin_begin_at": "04-16-2012 07:00 PM",
-        "timezone": "+08:00 GMT",
-        "background": "Pier39",
-        "place": {
-          "line1": "上海商城 Shanghai Centre",
-          "line2": "1376 Nanjing Rd. Westat Xikang Rd.",
-          "provider": "foursquare",
-          "external_id": "4bcbff96511f95217767b2c7",
-          "lng": "121.44725037",
-          "lat": "31.22828865"
-        },
-        "conversations": [
-
-        ],
-        "host": {
-          "id": "3",
-          "external_identity": "virushuo@gmail.com",
-          "name": "virushuo",
-          "bio": "",
-          "avatar_file_name": "http://www.gravatar.com/avatar/b578b513f1d494bf0248faaedcc38699?d=http%3A%2F%2Fimg.exfe.com%2F7%2F8f%2F80_80_78ff123257c8c76524d470b7d7739e4c.png",
-          "external_username": "virushuo@gmail.com",
-          "provider": "email"
-        },
-        "invitations": [
-          {
-            "invitation_id": "359",
-            "state": 1,
-            "by_identity_id": "3",
-            "updated_at": "2012-04-16 10:53:33",
-            "identity_id": "217",
-            "provider": "email",
-            "external_identity": "googollee@gmail.com",
-            "name": "googollee",
-            "bio": "",
-            "avatar_file_name": "http://img.exfe.com/web/80_80_default.png",
-            "external_username": "googollee@gmail.com",
-            "identities": [
-              {
-                "identity_id": "217",
-                "status": "3",
-                "provider": "email",
-                "external_identity": "googollee@gmail.com",
-                "name": "googollee",
-                "bio": "",
-                "avatar_file_name": "default.png",
-                "external_username": "googollee@gmail.com"
-              },
-              {
-                "identity_id": "219",
-                "status": "3",
-                "provider": "iOSAPN",
-                "external_identity": "b8d67c3a920a4cdd4938d83ee71c2dbe6a31476b3fef484850dc89093341b3c4",
-                "name": "",
-                "bio": "",
-                "avatar_file_name": "",
-                "external_username": "Googol iPhone"
-              }
-            ],
-            "user_id": 154
-          },
-          {
-            "invitation_id": "358",
-            "state": 1,
-            "by_identity_id": "3",
-            "updated_at": "2012-04-16 10:43:26",
-            "identity_id": "3",
-            "provider": "email",
-            "external_identity": "virushuo@gmail.com",
-            "name": "virushuo",
-            "bio": "",
-            "avatar_file_name": "http://www.gravatar.com/avatar/b578b513f1d494bf0248faaedcc38699?d=http%3A%2F%2Fimg.exfe.com%2F7%2F8f%2F80_80_78ff123257c8c76524d470b7d7739e4c.png",
-            "external_username": "virushuo@gmail.com",
-            "identities": [
-              {
-                "identity_id": "3",
-                "status": "3",
-                "provider": "email",
-                "external_identity": "virushuo@gmail.com",
-                "name": "virushuo",
-                "bio": "",
-                "avatar_file_name": "http://www.gravatar.com/avatar/b578b513f1d494bf0248faaedcc38699?d=http%3A%2F%2Fimg.exfe.com%2F7%2F8f%2F80_80_78ff123257c8c76524d470b7d7739e4c.png",
-                "external_username": "virushuo@gmail.com"
-              },
-              {
-                "identity_id": "107",
-                "status": "3",
-                "provider": "iOSAPN",
-                "external_identity": "96da067d5b5fba84c032b12fa5667b19acd47d8fb383784ae2a4dd4904fb8858",
-                "name": "",
-                "bio": "",
-                "avatar_file_name": "",
-                "external_username": "huoju’s iPhone"
-              },
-              {
-                "identity_id": "114",
-                "status": "3",
-                "provider": "iOSAPN",
-                "external_identity": "ae5cb3dd7cbffc822050995779cc138cfb70a3c81a36158caf3e8fb71ce7bdad",
-                "name": "",
-                "bio": "",
-                "avatar_file_name": "",
-                "external_username": "huoju’s iPhone"
-              },
-              {
-                "identity_id": "184",
-                "status": "1",
-                "provider": "iOSAPN",
-                "external_identity": "6a2ce55a0eb46c05a665e35facea5d6f1fdea7a707b1997bc0c93a0002633373",
-                "name": "",
-                "bio": "",
-                "avatar_file_name": "",
-                "external_username": "huoju’s iPhone"
-              },
-              {
-                "identity_id": "204",
-                "status": "3",
-                "provider": "iOSAPN",
-                "external_identity": "0db4ecb972d2f76d33659a60cbaa3ea63c5b3f536022c092e6809eb87fcf001a",
-                "name": "",
-                "bio": "",
-                "avatar_file_name": "",
-                "external_username": "handaoliang_ipad"
-              }
-            ],
-            "user_id": 3
-          },
-          {
-            "invitation_id": "360",
-            "state": 1,
-            "by_identity_id": "3",
-            "updated_at": "2012-04-16 10:47:04",
-            "identity_id": "1",
-            "provider": "email",
-            "external_identity": "dm@hengdm.com",
-            "name": "dm.",
-            "bio": "",
-            "avatar_file_name": "http://www.gravatar.com/avatar/45e22c93867a89c1597f150fe8cda9e4?d=http%3A%2F%2Fimg.exfe.com%2Ff%2F47%2F80_80_f478fe68000db11a094e9031509249b0.png",
-            "external_username": "dm@hengdm.com",
-            "identities": [
-              {
-                "identity_id": "1",
-                "status": "3",
-                "provider": "email",
-                "external_identity": "dm@hengdm.com",
-                "name": "dm.",
-                "bio": "",
-                "avatar_file_name": "http://www.gravatar.com/avatar/45e22c93867a89c1597f150fe8cda9e4?d=http%3A%2F%2Fimg.exfe.com%2Ff%2F47%2F80_80_f478fe68000db11a094e9031509249b0.png",
-                "external_username": "dm@hengdm.com"
-              },
-              {
-                "identity_id": "113",
-                "status": "3",
-                "provider": "iOSAPN",
-                "external_identity": "d197c49ec3fd49a4bb09fdf65b034f71a4735ea85b0b48c6fa9186cc29d20d68",
-                "name": "",
-                "bio": "",
-                "avatar_file_name": "",
-                "external_username": "DM iPhone"
-              }
-            ],
-            "user_id": 1
-          },
-          {
-            "invitation_id": "361",
-            "state": 0,
-            "by_identity_id": "3",
-            "updated_at": "2012-04-16 10:43:26",
-            "identity_id": "218",
-            "provider": "email",
-            "external_identity": "cfddream@gmail.com",
-            "name": "cfddream",
-            "bio": "",
-            "avatar_file_name": "http://img.exfe.com/web/80_80_default.png",
-            "external_username": "cfddream@gmail.com",
-            "identities": [
-              {
-                "invitation_id": "361",
-                "state": "0",
-                "by_identity_id": "3",
-                "updated_at": "2012-04-16 10:43:26",
-                "identity_id": "218",
-                "provider": "email",
-                "external_identity": "cfddream@gmail.com",
-                "name": "cfddream",
-                "bio": "",
-                "avatar_file_name": "http://img.exfe.com/web/80_80_default.png",
-                "external_username": "cfddream@gmail.com"
-              }
-            ],
-            "user_id": 0
-          },
-          {
-            "invitation_id": "362",
-            "state": 1,
-            "by_identity_id": "3",
-            "updated_at": "2012-04-16 10:43:26",
-            "identity_id": "5",
-            "provider": "email",
-            "external_identity": "leaskh@gmail.com",
-            "name": "Leask Huang",
-            "bio": "",
-            "avatar_file_name": "http://www.gravatar.com/avatar/0b4d9df63e92a6002ce8018589aab61f?d=http%3A%2F%2Fimg.exfe.com%2Fa%2F09%2F80_80_a095e630b1955871a2732e1ddf6632ff.png",
-            "external_username": "leaskh@gmail.com",
-            "identities": [
-              {
-                "identity_id": "5",
-                "status": "3",
-                "provider": "email",
-                "external_identity": "leaskh@gmail.com",
-                "name": "Leask Huang",
-                "bio": "",
-                "avatar_file_name": "http://www.gravatar.com/avatar/0b4d9df63e92a6002ce8018589aab61f?d=http%3A%2F%2Fimg.exfe.com%2Fa%2F09%2F80_80_a095e630b1955871a2732e1ddf6632ff.png",
-                "external_username": "leaskh@gmail.com"
-              },
-              {
-                "identity_id": "65",
-                "status": "1",
-                "provider": "iOSAPN",
-                "external_identity": "138f491470d8ba3bf6afb07489280dd787680cba60ac231eb075e18314c028a7",
-                "name": "",
-                "bio": "",
-                "avatar_file_name": "",
-                "external_username": ""
-              }
-            ],
-            "user_id": 5
-          },
-          {
-            "invitation_id": "363",
-            "state": 0,
-            "by_identity_id": "3",
-            "updated_at": "2012-04-16 10:43:26",
-            "identity_id": "18",
-            "provider": "email",
-            "external_identity": "arthur369@gmail.com",
-            "name": "西乔",
-            "bio": "",
-            "avatar_file_name": "http://www.gravatar.com/avatar/186bed48f2520e74e492e3dc9756a5b1?d=http%3A%2F%2Fimg.exfe.com%2Fc%2F0e%2F80_80_c0ecbda0ee4a48829071fb352cc46060.jpg",
-            "external_username": "arthur369@gmail.com",
-            "identities": [
-              {
-                "identity_id": "18",
-                "status": "3",
-                "provider": "email",
-                "external_identity": "arthur369@gmail.com",
-                "name": "西乔",
-                "bio": "",
-                "avatar_file_name": "http://www.gravatar.com/avatar/186bed48f2520e74e492e3dc9756a5b1?d=http%3A%2F%2Fimg.exfe.com%2Fc%2F0e%2F80_80_c0ecbda0ee4a48829071fb352cc46060.jpg",
-                "external_username": "arthur369@gmail.com"
-              }
-            ],
-            "user_id": 80
-          },
-          {
-            "invitation_id": "367",
-            "state": 1,
-            "by_identity_id": "5",
-            "updated_at": "2012-04-16 11:19:10",
-            "identity_id": "15",
-            "provider": "email",
-            "external_identity": "afu@forresty.com",
-            "name": "forresty",
-            "bio": "",
-            "avatar_file_name": "http://www.gravatar.com/avatar/23e50edf941e60d5ec7bb64706833121?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png",
-            "external_username": "afu@forresty.com",
-            "identities": [
-              {
-                "identity_id": "15",
-                "status": "3",
-                "provider": "email",
-                "external_identity": "afu@forresty.com",
-                "name": "forresty",
-                "bio": "",
-                "avatar_file_name": "http://www.gravatar.com/avatar/23e50edf941e60d5ec7bb64706833121?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png",
-                "external_username": "afu@forresty.com"
-              },
-              {
-                "identity_id": "234",
-                "status": "3",
-                "provider": "iOSAPN",
-                "external_identity": "93c9c21d33293842916e01b5b00d283eb921f159687145be7d752e3ac31678ee",
-                "name": "",
-                "bio": "",
-                "avatar_file_name": "",
-                "external_username": "Forrest Ye’s iPhone 4"
-              }
-            ],
-            "user_id": 13
-          },
-          {
-            "invitation_id": "368",
-            "state": 1,
-            "by_identity_id": "3",
-            "updated_at": "2012-04-16 11:40:07",
-            "identity_id": "14",
-            "provider": "email",
-            "external_identity": "neo.lee@gmail.com",
-            "name": "soulhacker",
-            "bio": "",
-            "avatar_file_name": "http://www.gravatar.com/avatar/14c72f3a1018ae6c3214758b493a0bc3?d=http%3A%2F%2Fimg.exfe.com%2F6%2F30%2F80_80_630a0e5aa9db5f9bad3ca1c86fcdafa1.jpg",
-            "external_username": "neo.lee@gmail.com",
-            "identities": [
-              {
-                "identity_id": "14",
-                "status": "3",
-                "provider": "email",
-                "external_identity": "neo.lee@gmail.com",
-                "name": "soulhacker",
-                "bio": "",
-                "avatar_file_name": "http://www.gravatar.com/avatar/14c72f3a1018ae6c3214758b493a0bc3?d=http%3A%2F%2Fimg.exfe.com%2F6%2F30%2F80_80_630a0e5aa9db5f9bad3ca1c86fcdafa1.jpg",
-                "external_username": "neo.lee@gmail.com"
-              },
-              {
-                "identity_id": "211",
-                "status": "3",
-                "provider": "iOSAPN",
-                "external_identity": "b62519f529ae7440dc68a563d51776b978f6628c9a7c14eaa5bd3764ac6685b0",
-                "name": "",
-                "bio": "",
-                "avatar_file_name": "",
-                "external_username": "neophone4s"
-              }
-            ],
-            "user_id": 14
-          }
-        ]
-      },
-      {
-        "id": "100053",
-        "title": "Meet Melvin and his girl",
-        "description": "Welcome back.",
-        "code": "",
-        "begin_at": "2011-12-25 10:00:00",
-        "end_at": "0000-00-00 00:00:00",
-        "duration": "0",
-        "host_id": "4",
-        "created_at": "2011-12-21 14:44:18",
-        "updated_at": "2011-12-25 16:51:52",
-        "state": "1",
-        "place_id": "50",
-        "time_type": "",
-        "origin_begin_at": "",
-        "timezone": "+08:00 CST",
-        "background": "",
-        "place": {
-          "line1": "新旺",
-          "line2": "上海浦东八百伴",
-          "provider": "",
-          "external_id": "",
-          "lng": "0.00000000",
-          "lat": "0.00000000"
-        },
-        "conversations": [
-          {
-            "id": "365",
-            "identity_id": "15",
-            "title": "",
-            "message": "客气了：）  \r\n",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-25 21:55:25",
-            "updated_at": "2011-12-25 21:55:25",
-            "identity": {
-              "provider": "email",
-              "external_identity": "afu@forresty.com",
-              "external_username": "afu@forresty.com",
-              "name": "forresty",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/23e50edf941e60d5ec7bb64706833121?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png"
-            }
-          },
-          {
-            "id": "364",
-            "identity_id": "104",
-            "title": "",
-            "message": "VPN很好用，谢谢叶峰！\n",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-25 21:11:33",
-            "updated_at": "2011-12-25 21:11:33",
-            "identity": {
-              "provider": "email",
-              "external_identity": "melvinxie@gmail.com",
-              "external_username": "melvinxie@gmail.com",
-              "name": "melvinxie@gmail.com",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/338d22b649349a0ad22635753fd88705?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png"
-            }
-          },
-          {
-            "id": "363",
-            "identity_id": "4",
-            "title": "",
-            "message": "大家的建议都很好，我记录一下，找时间和产品经理谈谈。",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-25 20:23:11",
-            "updated_at": "2011-12-25 20:23:11",
-            "identity": {
-              "provider": "email",
-              "external_identity": "i@leaskh.com",
-              "external_username": "i@leaskh.com",
-              "name": "Leask Huang",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png"
-            }
-          },
-          {
-            "id": "362",
-            "identity_id": "15",
-            "title": "",
-            "message": "直接回复邮件的时候多cc一个人就好了\r\n",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-25 20:21:27",
-            "updated_at": "2011-12-25 20:21:27",
-            "identity": {
-              "provider": "email",
-              "external_identity": "afu@forresty.com",
-              "external_username": "afu@forresty.com",
-              "name": "forresty",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/23e50edf941e60d5ec7bb64706833121?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png"
-            }
-          },
-          {
-            "id": "361",
-            "identity_id": "4",
-            "title": "",
-            "message": "噢~点活动页面右上角的铅笔，然后店exfee下的edit，就能添加人了。啊，我们设计得还不够易用，需要继续改进。",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-25 20:11:09",
-            "updated_at": "2011-12-25 20:11:09",
-            "identity": {
-              "provider": "email",
-              "external_identity": "i@leaskh.com",
-              "external_username": "i@leaskh.com",
-              "name": "Leask Huang",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png"
-            }
-          },
-          {
-            "id": "360",
-            "identity_id": "104",
-            "title": "",
-            "message": "她在旁边看。我刚点验证链接了，不能登录这里。也没法邀请她进来。\n",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-25 20:07:52",
-            "updated_at": "2011-12-25 20:07:52",
-            "identity": {
-              "provider": "email",
-              "external_identity": "melvinxie@gmail.com",
-              "external_username": "melvinxie@gmail.com",
-              "name": "melvinxie@gmail.com",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/338d22b649349a0ad22635753fd88705?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png"
-            }
-          },
-          {
-            "id": "359",
-            "identity_id": "4",
-            "title": "",
-            "message": "把张晶小姐也加进来啊。哈哈。",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-25 20:02:35",
-            "updated_at": "2011-12-25 20:02:35",
-            "identity": {
-              "provider": "email",
-              "external_identity": "i@leaskh.com",
-              "external_username": "i@leaskh.com",
-              "name": "Leask Huang",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png"
-            }
-          },
-          {
-            "id": "358",
-            "identity_id": "15",
-            "title": "",
-            "message": "server {tokyo,fremont}.vps.fye.im\r\ntype PPTP\r\nusername melvin\r\npassword nivlem\r\n",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-25 20:01:17",
-            "updated_at": "2011-12-25 20:01:17",
-            "identity": {
-              "provider": "email",
-              "external_identity": "afu@forresty.com",
-              "external_username": "afu@forresty.com",
-              "name": "forresty",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/23e50edf941e60d5ec7bb64706833121?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png"
-            }
-          },
-          {
-            "id": "357",
-            "identity_id": "4",
-            "title": "",
-            "message": "嗯，我也是~而且感觉你们好幸福啊~让旁人羡慕不已。期待下次见面 ：）",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-25 20:00:09",
-            "updated_at": "2011-12-25 20:00:09",
-            "identity": {
-              "provider": "email",
-              "external_identity": "i@leaskh.com",
-              "external_username": "i@leaskh.com",
-              "name": "Leask Huang",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png"
-            }
-          },
-          {
-            "id": "356",
-            "identity_id": "104",
-            "title": "",
-            "message": "叶峰说的那个vpn怎么搞作？\n",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-25 19:56:10",
-            "updated_at": "2011-12-25 19:56:10",
-            "identity": {
-              "provider": "email",
-              "external_identity": "melvinxie@gmail.com",
-              "external_username": "melvinxie@gmail.com",
-              "name": "melvinxie@gmail.com",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/338d22b649349a0ad22635753fd88705?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png"
-            }
-          },
-          {
-            "id": "355",
-            "identity_id": "104",
-            "title": "",
-            "message": "好久不见，今天聊得很开心，谢谢了！\n",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-25 19:53:13",
-            "updated_at": "2011-12-25 19:53:13",
-            "identity": {
-              "provider": "email",
-              "external_identity": "melvinxie@gmail.com",
-              "external_username": "melvinxie@gmail.com",
-              "name": "melvinxie@gmail.com",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/338d22b649349a0ad22635753fd88705?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png"
-            }
-          },
-          {
-            "id": "351",
-            "identity_id": "4",
-            "title": "",
-            "message": "Cool, lets meet each other in Pudong.",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-21 20:05:24",
-            "updated_at": "2011-12-21 20:05:24",
-            "identity": {
-              "provider": "email",
-              "external_identity": "i@leaskh.com",
-              "external_username": "i@leaskh.com",
-              "name": "Leask Huang",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png"
-            }
-          },
-          {
-            "id": "350",
-            "identity_id": "4",
-            "title": "",
-            "message": "thank @melvinxie.",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-21 20:04:36",
-            "updated_at": "2011-12-21 20:04:36",
-            "identity": {
-              "provider": "email",
-              "external_identity": "i@leaskh.com",
-              "external_username": "i@leaskh.com",
-              "name": "Leask Huang",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png"
-            }
-          },
-          {
-            "id": "349",
-            "identity_id": "104",
-            "title": "",
-            "message": "Cool project! Pudong is close to me ;)",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-21 19:57:21",
-            "updated_at": "2011-12-21 19:57:21",
-            "identity": {
-              "provider": "email",
-              "external_identity": "melvinxie@gmail.com",
-              "external_username": "melvinxie@gmail.com",
-              "name": "melvinxie@gmail.com",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/338d22b649349a0ad22635753fd88705?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png"
-            }
-          },
-          {
-            "id": "348",
-            "identity_id": "15",
-            "title": "",
-            "message": "Place? Somewhere in Pudong? \r\n",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-21 19:48:06",
-            "updated_at": "2011-12-21 19:48:06",
-            "identity": {
-              "provider": "email",
-              "external_identity": "afu@forresty.com",
-              "external_username": "afu@forresty.com",
-              "name": "forresty",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/23e50edf941e60d5ec7bb64706833121?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png"
-            }
-          },
-          {
-            "id": "347",
-            "identity_id": "4",
-            "title": "",
-            "message": "Look forward to see you all.",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-21 19:46:21",
-            "updated_at": "2011-12-21 19:46:21",
-            "identity": {
-              "provider": "email",
-              "external_identity": "i@leaskh.com",
-              "external_username": "i@leaskh.com",
-              "name": "Leask Huang",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png"
-            }
-          },
-          {
-            "id": "346",
-            "identity_id": "4",
-            "title": "",
-            "message": "Hey guys. This is the project that I working on.",
-            "postable_id": "100053",
-            "postable_type": "cross",
-            "created_at": "2011-12-21 19:45:26",
-            "updated_at": "2011-12-21 19:45:26",
-            "identity": {
-              "provider": "email",
-              "external_identity": "i@leaskh.com",
-              "external_username": "i@leaskh.com",
-              "name": "Leask Huang",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png"
-            }
-          }
-        ],
-        "host": {
-          "id": "4",
-          "external_identity": "i@leaskh.com",
-          "name": "Leask Huang",
-          "bio": "",
-          "avatar_file_name": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
-          "external_username": "i@leaskh.com",
-          "provider": "email"
-        },
-        "invitations": [
-          {
-            "invitation_id": "182",
-            "state": 1,
-            "by_identity_id": "4",
-            "updated_at": "2011-12-21 14:44:18",
-            "identity_id": "4",
-            "provider": "email",
-            "external_identity": "i@leaskh.com",
-            "name": "Leask Huang",
-            "bio": "",
-            "avatar_file_name": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
-            "external_username": "i@leaskh.com",
-            "identities": [
-              {
-                "identity_id": "4",
-                "status": "3",
-                "provider": "email",
-                "external_identity": "i@leaskh.com",
-                "name": "Leask Huang",
-                "bio": "",
-                "avatar_file_name": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
-                "external_username": "i@leaskh.com"
-              },
-              {
-                "identity_id": "65",
-                "status": "3",
-                "provider": "iOSAPN",
-                "external_identity": "138f491470d8ba3bf6afb07489280dd787680cba60ac231eb075e18314c028a7",
-                "name": "",
-                "bio": "",
-                "avatar_file_name": "",
-                "external_username": ""
-              }
-            ],
-            "user_id": 4
-          },
-          {
-            "invitation_id": "183",
-            "state": 1,
-            "by_identity_id": "4",
-            "updated_at": "2011-12-21 14:44:18",
-            "identity_id": "15",
-            "provider": "email",
-            "external_identity": "afu@forresty.com",
-            "name": "forresty",
-            "bio": "",
-            "avatar_file_name": "http://www.gravatar.com/avatar/23e50edf941e60d5ec7bb64706833121?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png",
-            "external_username": "afu@forresty.com",
-            "identities": [
-              {
-                "identity_id": "15",
-                "status": "3",
-                "provider": "email",
-                "external_identity": "afu@forresty.com",
-                "name": "forresty",
-                "bio": "",
-                "avatar_file_name": "http://www.gravatar.com/avatar/23e50edf941e60d5ec7bb64706833121?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png",
-                "external_username": "afu@forresty.com"
-              },
-              {
-                "identity_id": "234",
-                "status": "3",
-                "provider": "iOSAPN",
-                "external_identity": "93c9c21d33293842916e01b5b00d283eb921f159687145be7d752e3ac31678ee",
-                "name": "",
-                "bio": "",
-                "avatar_file_name": "",
-                "external_username": "Forrest Ye’s iPhone 4"
-              }
-            ],
-            "user_id": 13
-          },
-          {
-            "invitation_id": "184",
-            "state": 1,
-            "by_identity_id": "4",
-            "updated_at": "2011-12-21 14:44:18",
-            "identity_id": "104",
-            "provider": "email",
-            "external_identity": "melvinxie@gmail.com",
-            "name": "melvinxie@gmail.com",
-            "bio": "",
-            "avatar_file_name": "http://www.gravatar.com/avatar/338d22b649349a0ad22635753fd88705?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png",
-            "external_username": "melvinxie@gmail.com",
-            "identities": [
-              {
-                "identity_id": "104",
-                "status": "3",
-                "provider": "email",
-                "external_identity": "melvinxie@gmail.com",
-                "name": "melvinxie@gmail.com",
-                "bio": "",
-                "avatar_file_name": "http://www.gravatar.com/avatar/338d22b649349a0ad22635753fd88705?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png",
-                "external_username": "melvinxie@gmail.com"
-              }
-            ],
-            "user_id": 84
-          }
-        ]
-      },
-      {
-        "id": "100002",
+        "id_base62": "q0W",
         "title": "Dinner with Leask Huang",
         "description": "Hey, let's try our new EXFE here.",
-        "code": "",
-        "begin_at": "2011-11-03 11:00:00",
-        "end_at": "0000-00-00 00:00:00",
-        "duration": "0",
-        "host_id": "4",
-        "created_at": "2011-11-02 20:03:12",
-        "updated_at": "2011-11-03 07:30:13",
-        "state": "1",
-        "place_id": "3",
-        "time_type": "",
-        "origin_begin_at": "",
-        "timezone": "+08:00 CST",
-        "background": "",
+        "time": {
+          "begin_at": {
+            "date_word": "",
+            "date": "2011-11-03",
+            "time_word": "",
+            "time": "11:00:00",
+            "timezone": "+08:00 CST",
+            "id": 0,
+            "type": "EFTime"
+          },
+          "origin": "",
+          "outputformat": 0,
+          "id": 0,
+          "type": "CrossTime"
+        },
         "place": {
-          "line1": "Xiao-A-Mei",
-          "line2": "",
+          "title": "Xiao-A-Mei",
+          "description": "",
+          "lng": "0.00000000",
+          "lat": "0.00000000",
           "provider": "",
           "external_id": "",
-          "lng": "0.00000000",
-          "lat": "0.00000000"
+          "created_at": null,
+          "updated_at": null,
+          "id": 3,
+          "type": "Place"
         },
-        "conversations": [
-          {
-            "id": "48",
-            "identity_id": "4",
-            "title": "",
-            "message": "I am on my way. ",
-            "postable_id": "100002",
-            "postable_type": "cross",
-            "created_at": "2011-11-03 12:06:43",
-            "updated_at": "2011-11-03 12:06:43",
-            "identity": {
-              "provider": "email",
-              "external_identity": "i@leaskh.com",
-              "external_username": "i@leaskh.com",
-              "name": "Leask Huang",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png"
+        "attribute": {
+          "state": "published"
+        },
+        "exfee": {
+          "invitations": [
+            {
+              "identity": {
+                "name": "Leask Huang",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 4,
+                "external_id": "i@leaskh.com",
+                "external_username": "i@leaskh.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:35:51",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 4,
+                "type": "identity"
+              },
+              "by_identity": {
+                "name": "Leask Huang",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 4,
+                "external_id": "i@leaskh.com",
+                "external_username": "i@leaskh.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:35:51",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 4,
+                "type": "identity"
+              },
+              "rsvp_status": "ACCEPTED",
+              "via": "",
+              "created_at": "2011-11-02 20:03:12",
+              "updated_at": "2011-11-02 20:03:12",
+              "token": "",
+              "id": 16,
+              "type": "invitation"
+            },
+            {
+              "identity": {
+                "name": "forresty",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 13,
+                "external_id": "afu@forresty.com",
+                "external_username": "afu@forresty.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/23e50edf941e60d5ec7bb64706833121?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 20:03:12",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 15,
+                "type": "identity"
+              },
+              "by_identity": {
+                "name": "Leask Huang",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 4,
+                "external_id": "i@leaskh.com",
+                "external_username": "i@leaskh.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:35:51",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 4,
+                "type": "identity"
+              },
+              "rsvp_status": "ACCEPTED",
+              "via": "",
+              "created_at": "2011-11-02 20:03:12",
+              "updated_at": "2012-04-23 10:03:30",
+              "token": "",
+              "id": 17,
+              "type": "invitation"
             }
-          },
+          ],
+          "id": 100002,
+          "type": "exfee"
+        },
+        "widget": [
           {
-            "id": "16",
-            "identity_id": "15",
-            "title": "",
-            "message": "good",
-            "postable_id": "100002",
-            "postable_type": "cross",
-            "created_at": "2011-11-02 20:10:19",
-            "updated_at": "2011-11-02 20:10:19",
-            "identity": {
-              "provider": "email",
-              "external_identity": "afu@forresty.com",
-              "external_username": "afu@forresty.com",
-              "name": "forresty",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/23e50edf941e60d5ec7bb64706833121?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png"
-            }
-          },
-          {
-            "id": "15",
-            "identity_id": "4",
-            "title": "",
-            "message": "We can talk here.",
-            "postable_id": "100002",
-            "postable_type": "cross",
-            "created_at": "2011-11-02 20:06:02",
-            "updated_at": "2011-11-02 20:06:02",
-            "identity": {
-              "provider": "email",
-              "external_identity": "i@leaskh.com",
-              "external_username": "i@leaskh.com",
-              "name": "Leask Huang",
-              "bio": "",
-              "avatar_file_name": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png"
-            }
+            "image": "",
+            "widget_id": 0,
+            "id": 0,
+            "type": "Background"
           }
         ],
-        "host": {
-          "id": "4",
-          "external_identity": "i@leaskh.com",
+        "host_identity": {
           "name": "Leask Huang",
+          "nickname": "",
           "bio": "",
-          "avatar_file_name": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
+          "provider": "email",
+          "connected_user_id": 4,
+          "external_id": "i@leaskh.com",
           "external_username": "i@leaskh.com",
-          "provider": "email"
+          "avatar_filename": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
+          "avatar_updated_at": "0000-00-00 00:00:00",
+          "created_at": "2011-11-02 13:35:51",
+          "updated_at": "0000-00-00 00:00:00",
+          "id": 4,
+          "type": "identity"
         },
-        "invitations": [
+        "relative": [
           {
-            "invitation_id": "16",
-            "state": 1,
-            "by_identity_id": "4",
-            "updated_at": "2011-11-02 20:03:12",
-            "identity_id": "4",
-            "provider": "email",
-            "external_identity": "i@leaskh.com",
-            "name": "Leask Huang",
-            "bio": "",
-            "avatar_file_name": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
-            "external_username": "i@leaskh.com",
-            "identities": [
-              {
-                "identity_id": "4",
-                "status": "3",
-                "provider": "email",
-                "external_identity": "i@leaskh.com",
-                "name": "Leask Huang",
-                "bio": "",
-                "avatar_file_name": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
-                "external_username": "i@leaskh.com"
-              },
-              {
-                "identity_id": "65",
-                "status": "3",
-                "provider": "iOSAPN",
-                "external_identity": "138f491470d8ba3bf6afb07489280dd787680cba60ac231eb075e18314c028a7",
-                "name": "",
-                "bio": "",
-                "avatar_file_name": "",
-                "external_username": ""
-              }
-            ],
-            "user_id": 4
-          },
-          {
-            "invitation_id": "17",
-            "state": 1,
-            "by_identity_id": "4",
-            "updated_at": "2012-04-23 10:03:30",
-            "identity_id": "15",
-            "provider": "email",
-            "external_identity": "afu@forresty.com",
-            "name": "forresty",
-            "bio": "",
-            "avatar_file_name": "http://www.gravatar.com/avatar/23e50edf941e60d5ec7bb64706833121?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png",
-            "external_username": "afu@forresty.com",
-            "identities": [
-              {
-                "identity_id": "15",
-                "status": "3",
-                "provider": "email",
-                "external_identity": "afu@forresty.com",
-                "name": "forresty",
-                "bio": "",
-                "avatar_file_name": "http://www.gravatar.com/avatar/23e50edf941e60d5ec7bb64706833121?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png",
-                "external_username": "afu@forresty.com"
-              },
-              {
-                "identity_id": "234",
-                "status": "3",
-                "provider": "iOSAPN",
-                "external_identity": "93c9c21d33293842916e01b5b00d283eb921f159687145be7d752e3ac31678ee",
-                "name": "",
-                "bio": "",
-                "avatar_file_name": "",
-                "external_username": "Forrest Ye’s iPhone 4"
-              }
-            ],
-            "user_id": 13
+            "id": 0,
+            "relation": ""
           }
-        ]
+        ],
+        "type": "Cross",
+        "created_at": "2011-11-02 20:03:12",
+        "by_identity": {
+          "name": "Leask Huang",
+          "nickname": "",
+          "bio": "",
+          "provider": "email",
+          "connected_user_id": 4,
+          "external_id": "i@leaskh.com",
+          "external_username": "i@leaskh.com",
+          "avatar_filename": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
+          "avatar_updated_at": "0000-00-00 00:00:00",
+          "created_at": "2011-11-02 13:35:51",
+          "updated_at": "0000-00-00 00:00:00",
+          "id": 4,
+          "type": "identity"
+        },
+        "id": 100002
+      },
+      {
+        "id_base62": "q1L",
+        "title": "Meet Melvin and his girl",
+        "description": "Welcome back.",
+        "time": {
+          "begin_at": {
+            "date_word": "",
+            "date": "2011-12-25",
+            "time_word": "",
+            "time": "10:00:00",
+            "timezone": "+08:00 CST",
+            "id": 0,
+            "type": "EFTime"
+          },
+          "origin": "",
+          "outputformat": 0,
+          "id": 0,
+          "type": "CrossTime"
+        },
+        "place": {
+          "title": "新旺",
+          "description": "上海浦东八百伴",
+          "lng": "0.00000000",
+          "lat": "0.00000000",
+          "provider": "",
+          "external_id": "",
+          "created_at": null,
+          "updated_at": null,
+          "id": 50,
+          "type": "Place"
+        },
+        "attribute": {
+          "state": "published"
+        },
+        "exfee": {
+          "invitations": [
+            {
+              "identity": {
+                "name": "Leask Huang",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 4,
+                "external_id": "i@leaskh.com",
+                "external_username": "i@leaskh.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:35:51",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 4,
+                "type": "identity"
+              },
+              "by_identity": {
+                "name": "Leask Huang",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 4,
+                "external_id": "i@leaskh.com",
+                "external_username": "i@leaskh.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:35:51",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 4,
+                "type": "identity"
+              },
+              "rsvp_status": "ACCEPTED",
+              "via": "",
+              "created_at": "2011-12-21 14:44:18",
+              "updated_at": "2011-12-21 14:44:18",
+              "token": "",
+              "id": 182,
+              "type": "invitation"
+            },
+            {
+              "identity": {
+                "name": "forresty",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 13,
+                "external_id": "afu@forresty.com",
+                "external_username": "afu@forresty.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/23e50edf941e60d5ec7bb64706833121?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 20:03:12",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 15,
+                "type": "identity"
+              },
+              "by_identity": {
+                "name": "Leask Huang",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 4,
+                "external_id": "i@leaskh.com",
+                "external_username": "i@leaskh.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:35:51",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 4,
+                "type": "identity"
+              },
+              "rsvp_status": "ACCEPTED",
+              "via": "",
+              "created_at": "2011-12-21 14:44:18",
+              "updated_at": "2011-12-21 14:44:18",
+              "token": "",
+              "id": 183,
+              "type": "invitation"
+            },
+            {
+              "identity": {
+                "name": "melvinxie@gmail.com",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 84,
+                "external_id": "melvinxie@gmail.com",
+                "external_username": "melvinxie@gmail.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/338d22b649349a0ad22635753fd88705?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-12-21 14:44:18",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 104,
+                "type": "identity"
+              },
+              "by_identity": {
+                "name": "Leask Huang",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 4,
+                "external_id": "i@leaskh.com",
+                "external_username": "i@leaskh.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:35:51",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 4,
+                "type": "identity"
+              },
+              "rsvp_status": "ACCEPTED",
+              "via": "",
+              "created_at": "2011-12-21 14:44:18",
+              "updated_at": "2011-12-21 14:44:18",
+              "token": "",
+              "id": 184,
+              "type": "invitation"
+            }
+          ],
+          "id": 100053,
+          "type": "exfee"
+        },
+        "widget": [
+          {
+            "image": "",
+            "widget_id": 0,
+            "id": 0,
+            "type": "Background"
+          }
+        ],
+        "host_identity": {
+          "name": "Leask Huang",
+          "nickname": "",
+          "bio": "",
+          "provider": "email",
+          "connected_user_id": 4,
+          "external_id": "i@leaskh.com",
+          "external_username": "i@leaskh.com",
+          "avatar_filename": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
+          "avatar_updated_at": "0000-00-00 00:00:00",
+          "created_at": "2011-11-02 13:35:51",
+          "updated_at": "0000-00-00 00:00:00",
+          "id": 4,
+          "type": "identity"
+        },
+        "relative": [
+          {
+            "id": 0,
+            "relation": ""
+          }
+        ],
+        "type": "Cross",
+        "created_at": "2011-12-21 14:44:18",
+        "by_identity": {
+          "name": "Leask Huang",
+          "nickname": "",
+          "bio": "",
+          "provider": "email",
+          "connected_user_id": 4,
+          "external_id": "i@leaskh.com",
+          "external_username": "i@leaskh.com",
+          "avatar_filename": "http://www.gravatar.com/avatar/5b53fb71b6f36f46fe9cb14eb5acd56f?d=http%3A%2F%2Fimg.exfe.com%2F4%2F44%2F80_80_44474e89678b49020364ce5e94f6a366.png",
+          "avatar_updated_at": "0000-00-00 00:00:00",
+          "created_at": "2011-11-02 13:35:51",
+          "updated_at": "0000-00-00 00:00:00",
+          "id": 4,
+          "type": "identity"
+        },
+        "id": 100053
+      },
+      {
+        "id_base62": "q2G",
+        "title": "4sq day shanghai",
+        "description": "去4sq day 玩喽。",
+        "time": {
+          "begin_at": {
+            "date_word": "",
+            "date": "2012-04-16",
+            "time_word": "",
+            "time": "11:00:00",
+            "timezone": "+08:00 GMT",
+            "id": 0,
+            "type": "EFTime"
+          },
+          "origin": "04-16-2012 07:00 PM",
+          "outputformat": 0,
+          "id": 0,
+          "type": "CrossTime"
+        },
+        "place": {
+          "title": "上海商城 Shanghai Centre",
+          "description": "1376 Nanjing Rd. Westat Xikang Rd.",
+          "lng": "121.44725037",
+          "lat": "31.22828865",
+          "provider": "foursquare",
+          "external_id": "4bcbff96511f95217767b2c7",
+          "created_at": null,
+          "updated_at": null,
+          "id": 103,
+          "type": "Place"
+        },
+        "attribute": {
+          "state": "published"
+        },
+        "exfee": {
+          "invitations": [
+            {
+              "identity": {
+                "name": "googollee",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 154,
+                "external_id": "googollee@gmail.com",
+                "external_username": "googollee@gmail.com",
+                "avatar_filename": "default.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2012-04-16 10:43:26",
+                "updated_at": null,
+                "id": 217,
+                "type": "identity"
+              },
+              "by_identity": {
+                "name": "virushuo",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 3,
+                "external_id": "virushuo@gmail.com",
+                "external_username": "virushuo@gmail.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/b578b513f1d494bf0248faaedcc38699?d=http%3A%2F%2Fimg.exfe.com%2F7%2F8f%2F80_80_78ff123257c8c76524d470b7d7739e4c.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:35:31",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 3,
+                "type": "identity"
+              },
+              "rsvp_status": "ACCEPTED",
+              "via": "",
+              "created_at": "2012-04-16 10:43:26",
+              "updated_at": "2012-04-16 10:53:33",
+              "token": "",
+              "id": 359,
+              "type": "invitation"
+            },
+            {
+              "identity": {
+                "name": "virushuo",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 3,
+                "external_id": "virushuo@gmail.com",
+                "external_username": "virushuo@gmail.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/b578b513f1d494bf0248faaedcc38699?d=http%3A%2F%2Fimg.exfe.com%2F7%2F8f%2F80_80_78ff123257c8c76524d470b7d7739e4c.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:35:31",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 3,
+                "type": "identity"
+              },
+              "by_identity": {
+                "name": "virushuo",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 3,
+                "external_id": "virushuo@gmail.com",
+                "external_username": "virushuo@gmail.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/b578b513f1d494bf0248faaedcc38699?d=http%3A%2F%2Fimg.exfe.com%2F7%2F8f%2F80_80_78ff123257c8c76524d470b7d7739e4c.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:35:31",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 3,
+                "type": "identity"
+              },
+              "rsvp_status": "ACCEPTED",
+              "via": "",
+              "created_at": "2012-04-16 10:43:26",
+              "updated_at": "2012-04-16 10:43:26",
+              "token": "",
+              "id": 358,
+              "type": "invitation"
+            },
+            {
+              "identity": {
+                "name": "dm.",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 1,
+                "external_id": "dm@hengdm.com",
+                "external_username": "dm@hengdm.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/45e22c93867a89c1597f150fe8cda9e4?d=http%3A%2F%2Fimg.exfe.com%2Ff%2F47%2F80_80_f478fe68000db11a094e9031509249b0.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:35:12",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 1,
+                "type": "identity"
+              },
+              "by_identity": {
+                "name": "virushuo",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 3,
+                "external_id": "virushuo@gmail.com",
+                "external_username": "virushuo@gmail.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/b578b513f1d494bf0248faaedcc38699?d=http%3A%2F%2Fimg.exfe.com%2F7%2F8f%2F80_80_78ff123257c8c76524d470b7d7739e4c.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:35:31",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 3,
+                "type": "identity"
+              },
+              "rsvp_status": "ACCEPTED",
+              "via": "",
+              "created_at": "2012-04-16 10:43:26",
+              "updated_at": "2012-04-16 10:47:04",
+              "token": "",
+              "id": 360,
+              "type": "invitation"
+            },
+            {
+              "identity": {
+                "name": "cfddream",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 0,
+                "external_id": "cfddream@gmail.com",
+                "external_username": "cfddream@gmail.com",
+                "avatar_filename": "default.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2012-04-16 10:43:26",
+                "updated_at": null,
+                "id": 218,
+                "type": "identity"
+              },
+              "by_identity": {
+                "name": "virushuo",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 3,
+                "external_id": "virushuo@gmail.com",
+                "external_username": "virushuo@gmail.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/b578b513f1d494bf0248faaedcc38699?d=http%3A%2F%2Fimg.exfe.com%2F7%2F8f%2F80_80_78ff123257c8c76524d470b7d7739e4c.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:35:31",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 3,
+                "type": "identity"
+              },
+              "rsvp_status": "NORESPONSE",
+              "via": "",
+              "created_at": "2012-04-16 10:43:26",
+              "updated_at": "2012-04-16 10:43:26",
+              "token": "",
+              "id": 361,
+              "type": "invitation"
+            },
+            {
+              "identity": {
+                "name": "Leask Huang",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 5,
+                "external_id": "leaskh@gmail.com",
+                "external_username": "leaskh@gmail.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/0b4d9df63e92a6002ce8018589aab61f?d=http%3A%2F%2Fimg.exfe.com%2Fa%2F09%2F80_80_a095e630b1955871a2732e1ddf6632ff.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:37:02",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 5,
+                "type": "identity"
+              },
+              "by_identity": {
+                "name": "virushuo",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 3,
+                "external_id": "virushuo@gmail.com",
+                "external_username": "virushuo@gmail.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/b578b513f1d494bf0248faaedcc38699?d=http%3A%2F%2Fimg.exfe.com%2F7%2F8f%2F80_80_78ff123257c8c76524d470b7d7739e4c.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:35:31",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 3,
+                "type": "identity"
+              },
+              "rsvp_status": "ACCEPTED",
+              "via": "",
+              "created_at": "2012-04-16 10:43:26",
+              "updated_at": "2012-04-16 10:43:26",
+              "token": "",
+              "id": 362,
+              "type": "invitation"
+            },
+            {
+              "identity": {
+                "name": "西乔",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 80,
+                "external_id": "arthur369@gmail.com",
+                "external_username": "arthur369@gmail.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/186bed48f2520e74e492e3dc9756a5b1?d=http%3A%2F%2Fimg.exfe.com%2Fc%2F0e%2F80_80_c0ecbda0ee4a48829071fb352cc46060.jpg",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-03 06:10:41",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 18,
+                "type": "identity"
+              },
+              "by_identity": {
+                "name": "virushuo",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 3,
+                "external_id": "virushuo@gmail.com",
+                "external_username": "virushuo@gmail.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/b578b513f1d494bf0248faaedcc38699?d=http%3A%2F%2Fimg.exfe.com%2F7%2F8f%2F80_80_78ff123257c8c76524d470b7d7739e4c.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:35:31",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 3,
+                "type": "identity"
+              },
+              "rsvp_status": "NORESPONSE",
+              "via": "",
+              "created_at": "2012-04-16 10:43:26",
+              "updated_at": "2012-04-16 10:43:26",
+              "token": "",
+              "id": 363,
+              "type": "invitation"
+            },
+            {
+              "identity": {
+                "name": "forresty",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 13,
+                "external_id": "afu@forresty.com",
+                "external_username": "afu@forresty.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/23e50edf941e60d5ec7bb64706833121?d=http%3A%2F%2Fimg.exfe.com%2Fweb%2F80_80_default.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 20:03:12",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 15,
+                "type": "identity"
+              },
+              "by_identity": {
+                "name": "Leask Huang",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 5,
+                "external_id": "leaskh@gmail.com",
+                "external_username": "leaskh@gmail.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/0b4d9df63e92a6002ce8018589aab61f?d=http%3A%2F%2Fimg.exfe.com%2Fa%2F09%2F80_80_a095e630b1955871a2732e1ddf6632ff.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:37:02",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 5,
+                "type": "identity"
+              },
+              "rsvp_status": "ACCEPTED",
+              "via": "",
+              "created_at": "2012-04-16 11:18:29",
+              "updated_at": "2012-04-16 11:19:10",
+              "token": "",
+              "id": 367,
+              "type": "invitation"
+            },
+            {
+              "identity": {
+                "name": "soulhacker",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 14,
+                "external_id": "neo.lee@gmail.com",
+                "external_username": "neo.lee@gmail.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/14c72f3a1018ae6c3214758b493a0bc3?d=http%3A%2F%2Fimg.exfe.com%2F6%2F30%2F80_80_630a0e5aa9db5f9bad3ca1c86fcdafa1.jpg",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 18:51:58",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 14,
+                "type": "identity"
+              },
+              "by_identity": {
+                "name": "virushuo",
+                "nickname": "",
+                "bio": "",
+                "provider": "email",
+                "connected_user_id": 3,
+                "external_id": "virushuo@gmail.com",
+                "external_username": "virushuo@gmail.com",
+                "avatar_filename": "http://www.gravatar.com/avatar/b578b513f1d494bf0248faaedcc38699?d=http%3A%2F%2Fimg.exfe.com%2F7%2F8f%2F80_80_78ff123257c8c76524d470b7d7739e4c.png",
+                "avatar_updated_at": "0000-00-00 00:00:00",
+                "created_at": "2011-11-02 13:35:31",
+                "updated_at": "0000-00-00 00:00:00",
+                "id": 3,
+                "type": "identity"
+              },
+              "rsvp_status": "ACCEPTED",
+              "via": "",
+              "created_at": "2012-04-16 11:40:07",
+              "updated_at": "2012-04-16 11:40:07",
+              "token": "",
+              "id": 368,
+              "type": "invitation"
+            }
+          ],
+          "id": 100110,
+          "type": "exfee"
+        },
+        "widget": [
+          {
+            "image": "Pier39",
+            "widget_id": 0,
+            "id": 0,
+            "type": "Background"
+          }
+        ],
+        "host_identity": {
+          "name": "virushuo",
+          "nickname": "",
+          "bio": "",
+          "provider": "email",
+          "connected_user_id": 3,
+          "external_id": "virushuo@gmail.com",
+          "external_username": "virushuo@gmail.com",
+          "avatar_filename": "http://www.gravatar.com/avatar/b578b513f1d494bf0248faaedcc38699?d=http%3A%2F%2Fimg.exfe.com%2F7%2F8f%2F80_80_78ff123257c8c76524d470b7d7739e4c.png",
+          "avatar_updated_at": "0000-00-00 00:00:00",
+          "created_at": "2011-11-02 13:35:31",
+          "updated_at": "0000-00-00 00:00:00",
+          "id": 3,
+          "type": "identity"
+        },
+        "relative": [
+          {
+            "id": 0,
+            "relation": ""
+          }
+        ],
+        "type": "Cross",
+        "created_at": "2012-04-16 10:43:26",
+        "by_identity": {
+          "name": "virushuo",
+          "nickname": "",
+          "bio": "",
+          "provider": "email",
+          "connected_user_id": 3,
+          "external_id": "virushuo@gmail.com",
+          "external_username": "virushuo@gmail.com",
+          "avatar_filename": "http://www.gravatar.com/avatar/b578b513f1d494bf0248faaedcc38699?d=http%3A%2F%2Fimg.exfe.com%2F7%2F8f%2F80_80_78ff123257c8c76524d470b7d7739e4c.png",
+          "avatar_updated_at": "0000-00-00 00:00:00",
+          "created_at": "2011-11-02 13:35:31",
+          "updated_at": "0000-00-00 00:00:00",
+          "id": 3,
+          "type": "identity"
+        },
+        "id": 100110
       }
     ]
   }

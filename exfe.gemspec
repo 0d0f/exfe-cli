@@ -22,4 +22,5 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency "commander"
   gem.add_runtime_dependency "eggroll"
+  gem.add_runtime_dependency "base62"
 end

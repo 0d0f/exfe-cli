@@ -3,6 +3,7 @@
 require "rubygems"
 require "exfe_cli"
 require "commander/import"
+require 'base62'
 
 program :version, ExfeCli::VERSION
 program :description, ExfeCli::DESCRIPTION
@@ -31,7 +32,7 @@ command :crosses do |c|
   c.syntax = 'exfe crosses'
   c.description = 'list my crosses'
   c.action do |args, options|
-    @engine.crosses.each { |cross| puts cross[:id].ljust(8) + cross[:title] }
+    @engine.crosses.each { |cross| puts cross[:id_base62].base62_decode.to_s.ljust(8) + cross[:title] }
   end
 end
 
@@ -59,21 +60,21 @@ def extract_place(cross)
   [cross[:place][:line1], cross[:place][:line2]].select { |l| l.length > 0 }.join ', '
 end
 
-command :profile do |c|
-  c.syntax = 'exfe profile'
-  c.description = 'view my profile'
-  c.action do |args, options|
-    profile = @engine.profile
-    puts "Name: #{profile[:user][:name]}"
-    puts "Identities:"
-    profile[:identities].each do |identity|
-      puts identity[:provider].ljust(10) + identity[:external_username]
-    end
-  end
-end
+# command :profile do |c|
+#   c.syntax = 'exfe profile'
+#   c.description = 'view my profile'
+#   c.action do |args, options|
+#     profile = @engine.profile
+#     puts "Name: #{profile[:user][:name]}"
+#     puts "Identities:"
+#     profile[:identities].each do |identity|
+#       puts identity[:provider].ljust(10) + identity[:external_username]
+#     end
+#   end
+# end
 
 alias_command :s, :crosses
-alias_command :p, :profile
+# alias_command :p, :profile
 alias_command :c, :cross
 
 default_command :crosses

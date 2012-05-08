@@ -1,6 +1,9 @@
 {
   "meta": {
-    "code": 404,
-    "err": "login error"
+    "code": 403,
+    "errorType": "failed",
+    "errorDetail": ""
+  },
+  "response": {
   }
 }

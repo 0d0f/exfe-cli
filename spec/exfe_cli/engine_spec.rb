@@ -13,7 +13,7 @@ describe ExfeCli::Engine do
 
     it "should return auth token if login success" do
       engine.stub(:post).and_return(fixture('login_success.json'))
-      engine.login('afu@forresty.com', 'secret')[:auth_token].length.should > 0
+      engine.login('afu@forresty.com', 'secret')[:token].length.should > 0
     end
   end
 
@@ -26,15 +26,15 @@ describe ExfeCli::Engine do
 
   context 'cross' do
     it "should return a Hash" do
-      engine.stub(:get).and_return(fixture('crosses.json'))
-      engine.cross(100002).should be_a Hash
+      engine.stub(:get).and_return(fixture('100119.json'))
+      engine.cross(100119).should be_a Hash
     end
   end
 
-  context "profile" do
-    it "should return a hash" do
-      engine.stub(:get).and_return(fixture('profile.json'))
-      engine.profile.should be_a Hash
-    end
-  end
+  # context "profile" do
+  #   it "should return a hash" do
+  #     engine.stub(:get).and_return(fixture('profile.json'))
+  #     engine.profile.should be_a Hash
+  #   end
+  # end
 end

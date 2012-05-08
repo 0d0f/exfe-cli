@@ -15,11 +15,11 @@ module ExfeCli
       end
 
       def auth_token
-        YAML.load_file(config_file_path)[:auth_token]
+        YAML.load_file(config_file_path)[:token]
       end
 
       def user_id
-        YAML.load_file(config_file_path)[:userid]
+        YAML.load_file(config_file_path)[:user_id]
       end
     end
 
