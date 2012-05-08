@@ -22,14 +22,6 @@ View a cross
 
     exfe cross CROSS_ID
 
-View my profile
-
-    exfe profile
-
-## TODO
-
-Use V2 API
-
 ## Contributing
 
 1. Fork it
