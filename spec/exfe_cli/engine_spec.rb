@@ -26,8 +26,8 @@ describe ExfeCli::Engine do
 
   context 'cross' do
     it "should return a Hash" do
-      engine.stub(:get).and_return(fixture('100119.json'))
-      engine.cross(100119).should be_a Hash
+      engine.stub(:get).and_return(fixture('100002.json'))
+      engine.cross(100002).should be_a Hash
     end
   end
 

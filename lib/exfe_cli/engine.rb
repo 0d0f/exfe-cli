@@ -15,8 +15,7 @@ module ExfeCli
     end
 
     def cross(cross_id)
-      crosses = get("/crosses/#{cross_id}?token=#{auth_token}")[:crosses]
-      crosses.select { |c| c[:id] == cross_id.to_s }.first
+      get("/crosses/#{cross_id}?token=#{auth_token}")[:cross]
     end
 
     def profile

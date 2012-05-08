@@ -3,7 +3,6 @@
 require "rubygems"
 require "exfe_cli"
 require "commander/import"
-require 'base62'
 
 program :version, ExfeCli::VERSION
 program :description, ExfeCli::DESCRIPTION
@@ -32,7 +31,7 @@ command :crosses do |c|
   c.syntax = 'exfe crosses'
   c.description = 'list my crosses'
   c.action do |args, options|
-    @engine.crosses.each { |cross| puts cross[:id_base62].base62_decode.to_s.ljust(8) + cross[:title] }
+    @engine.crosses.each { |cross| puts cross[:id].to_s.ljust(8) + cross[:title] }
   end
 end
 
@@ -42,13 +41,13 @@ command :cross do |c|
   c.action do |args, options|
     cross = @engine.cross args.first
     puts "#{cross[:title].upcase} - #{cross[:description]}"
-    puts "#{extract_place(cross)} at #{to_localtime(cross[:begin_at])}"
+    puts "#{extract_place(cross)}"# at #{to_localtime(cross[:time][:origin])}"
     puts
-    cross[:conversations].reverse.each do |conv|
-      puts "#{to_localtime(conv[:created_at])} #{conv[:identity][:name]}:"
-      puts conv[:message]
-      puts
-    end
+    # cross[:conversations].reverse.each do |conv|
+    #   puts "#{to_localtime(conv[:created_at])} #{conv[:identity][:name]}:"
+    #   puts conv[:message]
+    #   puts
+    # end
   end
 end
 
@@ -57,7 +56,7 @@ def to_localtime(utc_time)
 end
 
 def extract_place(cross)
-  [cross[:place][:line1], cross[:place][:line2]].select { |l| l.length > 0 }.join ', '
+  [cross[:place][:title], cross[:place][:description]].select { |l| l.length > 0 }.join ', '
 end
 
 # command :profile do |c|
