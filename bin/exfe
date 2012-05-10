@@ -60,21 +60,21 @@ def extract_place(cross)
   [cross[:place][:title], cross[:place][:description]].select { |l| l.length > 0 }.join ', '
 end
 
-# command :profile do |c|
-#   c.syntax = 'exfe profile'
-#   c.description = 'view my profile'
-#   c.action do |args, options|
-#     profile = @engine.profile
-#     puts "Name: #{profile[:user][:name]}"
-#     puts "Identities:"
-#     profile[:identities].each do |identity|
-#       puts identity[:provider].ljust(10) + identity[:external_username]
-#     end
-#   end
-# end
+command :profile do |c|
+  c.syntax = 'exfe profile'
+  c.description = 'view my profile'
+  c.action do |args, options|
+    profile = @engine.profile
+    puts "Name: #{profile[:name]}"
+    puts "Identities:"
+    profile[:identities].each do |identity|
+      puts identity[:provider].ljust(10) + identity[:external_username]
+    end
+  end
+end
 
 alias_command :s, :crosses
-# alias_command :p, :profile
+alias_command :p, :profile
 alias_command :c, :cross
 
 default_command :crosses

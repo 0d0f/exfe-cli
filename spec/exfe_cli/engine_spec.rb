@@ -31,10 +31,10 @@ describe ExfeCli::Engine do
     end
   end
 
-  # context "profile" do
-  #   it "should return a hash" do
-  #     engine.stub(:get).and_return(fixture('profile.json'))
-  #     engine.profile.should be_a Hash
-  #   end
-  # end
+  context "profile" do
+    it "should return a hash" do
+      engine.stub(:get).and_return(fixture('profile.json'))
+      engine.profile.should be_a Hash
+    end
+  end
 end

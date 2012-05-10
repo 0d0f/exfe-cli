@@ -23,7 +23,7 @@ module ExfeCli
     end
 
     def profile
-      get "/users/#{user_id}/getprofile?token=#{auth_token}"
+      get("/users/#{user_id}?token=#{auth_token}")[:user]
     end
 
     # override
