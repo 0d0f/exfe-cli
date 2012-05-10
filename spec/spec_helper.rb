@@ -13,3 +13,6 @@ end
 def raw_fixture(filename)
   open("spec/fixtures/#{filename}") { |file| file.read }
 end
+
+require "fakeweb"
+FakeWeb.allow_net_connect = false

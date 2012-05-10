@@ -3,7 +3,7 @@ require "spec_helper"
 describe ExfeCli::Engine do
   subject { ExfeCli::Engine.new }
   it { should respond_to :login }
-  let(:engine) { subject }
+  let(:engine) { subject.tap { |e| e.stub(:auth_token); e.stub(:user_id) } }
 
   context 'login' do
     it "should return nil if login failed" do
