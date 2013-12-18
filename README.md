@@ -1,4 +1,4 @@
-# exfe_cli
+# exfe-cli
 
 Command line interface to [exfe.com](https://exfe.com/)
 
